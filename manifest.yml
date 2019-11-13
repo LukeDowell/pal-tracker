@@ -3,7 +3,7 @@ applications:
   - name: pal-tracker
     path: build/libs/pal-tracker.jar
     routes:
-      - pal-tracker-luke-dowell.cfapps.io
+      - route: pal-tracker-luke-dowell.cfapps.io
     env:
       WELCOME_MESSAGE: 'Hello from Pivotal Labs Chicago!'
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
