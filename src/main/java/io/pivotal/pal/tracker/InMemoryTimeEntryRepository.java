@@ -11,7 +11,7 @@ public class InMemoryTimeEntryRepository implements TimeEntryRepository {
 
     @Override
     public TimeEntry create(TimeEntry timeEntry) {
-        Long id = currentId++;
+        final Long id = currentId++;
 
         TimeEntry newTimeEntry = new TimeEntry(
             id,
